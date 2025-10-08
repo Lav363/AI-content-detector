@@ -1,13 +1,10 @@
 AI Content Detection & Visuals Unlocker for Scholarly Articles
-
      This project is an integrated tool designed to analyze scholarly articles in PDF format for authenticity and to extract and analyze visual content. It provides a comprehensive report on AI-generated text and images, and creates structured metadata for all figures found within the document.
 
 📜 Project Overview
-
       The rise of sophisticated generative AI allows for the instant creation of human-like text and realistic scientific images. Academic editors and peer reviewers currently lack an integrated tool to effectively vet scholarly articles for AI-generated content. This project provides a unified, scholarly-focused platform that can holistically assess a manuscript in a single, streamlined process, addressing the fragmentation of existing solutions.
 
 ✨ Features
-
     This tool is a web application built with Streamlit that provides the following analysis features:
 
 Text Analysis (Original Project)
