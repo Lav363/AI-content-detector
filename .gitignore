@@ -1,0 +1,9 @@
+# Ignore Python's virtual environment
+venv/
+
+# Ignore generated output files
+processed_output/
+
+# Ignore system files
+__pycache__/
+*.pyc
