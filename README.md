@@ -81,22 +81,22 @@ streamlit run app.py
 3.Your web browser will automatically open with the application running.
 
 📁 Project Structure
-    ai-content-detector/
-    ├── .gitignore
-    ├── app.py             # The Streamlit UI application
-    ├── main.py            # Original entry point (for text analysis)
-    ├── README.md          # This file
-    ├── requirements.txt
-    ├── src/
-    │   ├── __init__.py
-    │   ├── figure_extractor.py
-    │   ├── image_authenticity.py
-    │   ├── process_pdf.py
-    │   ├── text_analyzer.py
-    │   ├── model_detector.py
-    │   ├── fact_checker.py
-    │   └── visual_analyzer.py
-    └── venv/
+                    ai-content-detector/
+                    ├── .gitignore
+                    ├── app.py             # The Streamlit UI application
+                    ├── main.py            # Original entry point (for text analysis)
+                    ├── README.md          # This file
+                    ├── requirements.txt
+                    ├── src/
+                    │   ├── __init__.py
+                    │   ├── figure_extractor.py
+                    │   ├── image_authenticity.py
+                    │   ├── process_pdf.py
+                    │   ├── text_analyzer.py
+                    │   ├── model_detector.py
+                    │   ├── fact_checker.py
+                    │   └── visual_analyzer.py
+                    └── venv/
 
 👥 Team
 
