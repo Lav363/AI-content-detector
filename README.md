@@ -81,6 +81,7 @@ streamlit run app.py
 3.Your web browser will automatically open with the application running.
 
 📁 Project Structure
+
                     ai-content-detector/
                     ├── .gitignore
                     ├── app.py             # The Streamlit UI application
