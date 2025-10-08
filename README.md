@@ -1,7 +1,9 @@
 AI Content Detection & Visuals Unlocker for Scholarly Articles
+
 This project is an integrated tool designed to analyze scholarly articles in PDF format for authenticity and to extract and analyze visual content. It provides a comprehensive report on AI-generated text and images, and creates structured metadata for all figures found within the document.
 
 📜 Project Overview
+
 The rise of sophisticated generative AI allows for the instant creation of human-like text and realistic scientific images. Academic editors and peer reviewers currently lack an integrated tool to effectively vet scholarly articles for AI-generated content. This project provides a unified, scholarly-focused platform that can holistically assess a manuscript in a single, streamlined process, addressing the fragmentation of existing solutions.
 
 ✨ Features
@@ -79,22 +81,22 @@ streamlit run app.py
 3.Your web browser will automatically open with the application running.
 
 📁 Project Structure
-ai-content-detector/
-├── .gitignore
-├── app.py             # The Streamlit UI application
-├── main.py            # Original entry point (for text analysis)
-├── README.md          # This file
-├── requirements.txt
-├── src/
-│   ├── __init__.py
-│   ├── figure_extractor.py
-│   ├── image_authenticity.py
-│   ├── process_pdf.py
-│   ├── text_analyzer.py
-│   ├── model_detector.py
-│   ├── fact_checker.py
-│   └── visual_analyzer.py
-└── venv/
+    ai-content-detector/
+    ├── .gitignore
+    ├── app.py             # The Streamlit UI application
+    ├── main.py            # Original entry point (for text analysis)
+    ├── README.md          # This file
+    ├── requirements.txt
+    ├── src/
+    │   ├── __init__.py
+    │   ├── figure_extractor.py
+    │   ├── image_authenticity.py
+    │   ├── process_pdf.py
+    │   ├── text_analyzer.py
+    │   ├── model_detector.py
+    │   ├── fact_checker.py
+    │   └── visual_analyzer.py
+    └── venv/
 
 👥 Team
 
