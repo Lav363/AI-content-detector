@@ -1,18 +1,10 @@
 AI Content Detection & Visuals Unlocker for Scholarly Articles
 
-<<<<<<< HEAD
      This project is an integrated tool designed to analyze scholarly articles in PDF format for authenticity and to extract and analyze visual content. It provides a comprehensive report on AI-generated text and images, and creates structured metadata for all figures found within the document.
 
 📜 Project Overview
 
       The rise of sophisticated generative AI allows for the instant creation of human-like text and realistic scientific images. Academic editors and peer reviewers currently lack an integrated tool to effectively vet scholarly articles for AI-generated content. This project provides a unified, scholarly-focused platform that can holistically assess a manuscript in a single, streamlined process, addressing the fragmentation of existing solutions.
-=======
-This project is an integrated tool designed to analyze scholarly articles in PDF format for authenticity and to extract and analyze visual content. It provides a comprehensive report on AI-generated text and images, and creates structured metadata for all figures found within the document.
-
-📜 Project Overview
-
-The rise of sophisticated generative AI allows for the instant creation of human-like text and realistic scientific images. Academic editors and peer reviewers currently lack an integrated tool to effectively vet scholarly articles for AI-generated content. This project provides a unified, scholarly-focused platform that can holistically assess a manuscript in a single, streamlined process, addressing the fragmentation of existing solutions.
->>>>>>> 9e65bb3add8db754f0750112128b3ba1d962fae1
 
 ✨ Features
 
@@ -38,17 +30,17 @@ Visual Analysis (Integrated Project)
 
 4. Metadata Enrichment: Generates rich metadata for each figure, including:
 
-A predicted Category (e.g., 'chart', 'table', 'diagram').
+   A predicted Category (e.g., 'chart', 'table', 'diagram').
 
-A list of extracted Keywords from the caption.
-
-
-Figure Complexity Scoring: Assigns a numerical Complexity Score to each figure based on its textual and visual features.
+   A list of extracted Keywords from the caption.
 
 
-AI-Generated Image Detection: Runs an AI detection model on each figure to verify if it is likely Human-created or AI-generated.
+5. Figure Complexity Scoring: Assigns a numerical Complexity Score to each figure based on its textual and visual features.
 
-Summary Visualization: Presents a high-level summary pie chart showing the ratio of human vs. AI-generated figures found in the document.
+
+6. AI-Generated Image Detection: Runs an AI detection model on each figure to verify if it is likely Human-created or AI-generated.
+
+7. Summary Visualization: Presents a high-level summary pie chart showing the ratio of human vs. AI-generated figures found in the document.
 
 🛠️ Tech Stack
 
@@ -68,8 +60,8 @@ Follow these steps to set up and run the project locally.
 git clone <your-repository-url>
 cd ai-content-detector
 
-3. Create and activate a virtual environment:
-   
+2. Create and activate a virtual environment:
+
 # Create the environment
 python -m venv venv
 
@@ -88,7 +80,7 @@ Download and run the installer from the official Tesseract repository.
 During installation, make sure to check the box to "Add Tesseract to system PATH."
 
 4. Install Python dependencies:
-   
+
 pip install -r requirements.txt
 
 🚀 How to Run
@@ -96,47 +88,28 @@ pip install -r requirements.txt
 Make sure your virtual environment is active.
 
 Run the following command in your terminal:
+
 streamlit run app.py
 
 3.Your web browser will automatically open with the application running.
 
-📁 Project Structure
-<<<<<<< HEAD
-        ai-content-detector/
-        ├── .gitignore
-        ├── app.py             # The Streamlit UI application
-        ├── main.py            # Original entry point (for text analysis)
-        ├── README.md          # This file
-        ├── requirements.txt
-        ├── src/
-        │   ├── __init__.py
-        │   ├── figure_extractor.py
-        │   ├── image_authenticity.py
-        │   ├── process_pdf.py
-        │   ├── text_analyzer.py
-        │   ├── model_detector.py
-        │   ├── fact_checker.py
-        │   └── visual_analyzer.py
-        └── venv/
-=======
-
-                    ai-content-detector/
-                    ├── .gitignore
-                    ├── app.py             # The Streamlit UI application
-                    ├── main.py            # Original entry point (for text analysis)
-                    ├── README.md          # This file
-                    ├── requirements.txt
-                    ├── src/
-                    │   ├── __init__.py
-                    │   ├── figure_extractor.py
-                    │   ├── image_authenticity.py
-                    │   ├── process_pdf.py
-                    │   ├── text_analyzer.py
-                    │   ├── model_detector.py
-                    │   ├── fact_checker.py
-                    │   └── visual_analyzer.py
-                    └── venv/
->>>>>>> 9e65bb3add8db754f0750112128b3ba1d962fae1
+        📁 Project Structure
+                ai-content-detector/
+                ├── .gitignore
+                ├── app.py             # The Streamlit UI application
+                ├── main.py            # Original entry point (for text analysis)
+                ├── README.md          # This file
+                ├── requirements.txt
+                ├── src/
+                │   ├── __init__.py
+                │   ├── figure_extractor.py
+                │   ├── image_authenticity.py
+                │   ├── process_pdf.py
+                │   ├── text_analyzer.py
+                │   ├── model_detector.py
+                │   ├── fact_checker.py
+                │   └── visual_analyzer.py
+                └── venv/
 
 👥 Team
 
